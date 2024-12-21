@@ -1,16 +1,11 @@
-import Food from "./Food.tsx";
-import Footer from "./Footer.tsx";
-import Header from "./Header.tsx";
-
+import Card from "./Card.tsx";
 
 function App() {
   return (
     <>
-      <Header />
-      <Food />
-      <Footer />
+      <Card />
     </>
   );
 }
 
-export default App
+export default App;
